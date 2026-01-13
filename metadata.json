@@ -1,0 +1,5 @@
+{
+  "name": "ProSport Predictor AI",
+  "description": "An advanced sports match analysis and prediction platform using heuristic engines and Gemini AI to forecast winners, analyze team performance, and provide detailed tactical explanations.",
+  "requestFramePermissions": []
+}
