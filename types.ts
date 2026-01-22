@@ -5,6 +5,13 @@ export enum SportType {
   BASKETBALL = 'Basketball'
 }
 
+export enum CompetitionType {
+  INTERNATIONAL = 'International',
+  CLUB = 'Club',
+  LEAGUE = 'League',
+  DOMESTIC = 'Domestic'
+}
+
 export enum MatchType {
   LEAGUE = 'League',
   FRIENDLY = 'Friendly',
@@ -49,7 +56,7 @@ export interface Match {
   time?: string;
   venue: string;
   matchType: MatchType;
-  isInternational: boolean;
+  competitionType: CompetitionType;
   leagueName: string;
 }
 
